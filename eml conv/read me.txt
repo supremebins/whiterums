@@ -1,0 +1,9 @@
+place your html letter here in .html file and convert.
+use the .eml file as attachment.
+FILE1
+$settings['ATTACH_TYPE']   = 'message/rfc822';
+$settings['ATTACH_ENCODE'] = 'quoted-printable';
+FILE2
+$settings['ATTACH_TYPE'] = 'application/vnd.ms-outlook';
+$settings['ATTACH_ENCODE'] = 'base64';
+also open the eml file and change from name and subject for file2
